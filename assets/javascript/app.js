@@ -89,7 +89,47 @@
         "A billion years": true
       },
       gif: "https://giphy.com/embed/SdZUZUxAQEmsw" 
-    } 
+    },
+    {
+      question: "At what wind speed does a tropical storm turn into a hurricane?",
+      answers: {
+        "152 MPH": false,
+        "74 MPH": true,
+        "270 MPH": false,
+        "35 MPH": false
+      },
+      gif: "https://giphy.com/embed/HmTLatwLWpTQk" 
+    },
+    {
+      question: "Diamonds are made up almost entirely of what element?",
+      answers: {
+        "Nitrogen": false,
+        "Graphite": false,
+        "Mennonite": false,
+        "Carbon": true
+      },
+      gif: "https://giphy.com/embed/RFmjTxTo50pkQ" 
+    },
+    {
+      question: "What is a meteor called when it reaches Earth's surface?",
+      answers: {
+        "Meteorite": true,
+        "Comet": false,
+        "Asteroid ": false,
+        "Kryptonite": false
+      },
+      gif: "https://giphy.com/embed/pWhWtKdqwOAco" 
+    },
+    {
+      question: "Who was the last man to walk on the Moon?",
+      answers: {
+        "Neil Armstrong": false,
+        "Buzz Lightyear": false,
+        "Yuri Usachov": false,
+        "Captain Eugene Cernan": true
+      },
+      gif: "https://giphy.com/embed/69mUSKBujnpgmxcqlg" 
+    }   
   ]
   
   const timeLeft = " ~ Next question in 8 seconds ~";
