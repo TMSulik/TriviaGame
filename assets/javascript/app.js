@@ -266,8 +266,7 @@
     countdownDuringQuestion();
   }
 
-  // Multiple-choice answers are object keys with values of true or false.
-  // This function gives the keys based on their truth value.
+  // Multiple-choice answers are object keys with values of true or false. This function gives the keys based on their truth value.
   function getKeyByValue(obj, value) {
     return Object.keys(obj).find(function(key) {
       return obj[key] === value;
